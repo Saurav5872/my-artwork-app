@@ -20,7 +20,7 @@ const ArtworkTable: React.FC = () => {
   const [totalRecords, setTotalRecords] = useState<number>(0);
 
   const selectedIdsRef = useRef<SelectedMap>(new Map());
-  const [currentPageSelection, setCurrentPageSelection] = useState<number[]>([]);
+const [, setCurrentPageSelection] = useState<number[]>([]);
 
   useEffect(() => {
     loadPage(page);
