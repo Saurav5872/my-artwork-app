@@ -1,0 +1,17 @@
+.artwork-table .p-datatable-thead > tr > th {
+  text-align: left;
+}
+
+.selection-panel {
+  padding: 12px;
+  border-radius: 6px;
+  background: #ffffff;
+  max-width: 420px;
+}
+
+.selection-item {
+  padding: 6px 8px;
+  border-radius: 4px;
+  margin-top: 6px;
+  background: #f8f9fa;
+}
